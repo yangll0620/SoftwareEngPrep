@@ -13,3 +13,9 @@ https://github.com/grandyang/leetcode
 2. Website for system reading
    - https://www.educative.io/courses/grokking-the-system-design-interview
    - https://www.1point3acres.com/bbs/thread-890389-1-1.html
+
+
+
+## System Design
+
+How to question ML https://www.1point3acres.com/bbs/thread-898225-1-1.html
