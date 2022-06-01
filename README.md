@@ -26,3 +26,10 @@ https://www.1point3acres.com/bbs/thread-899803-1-1.html
 ## Projects
 
 Zillow grap area price
+
+
+## Blogs
+
+最近半年面试上百个candidate以后的想法
+
+https://www.1point3acres.com/bbs/thread-652548-1-1.html
