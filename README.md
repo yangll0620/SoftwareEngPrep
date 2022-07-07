@@ -38,3 +38,5 @@ https://www.1point3acres.com/bbs/thread-652548-1-1.html
 1. Regular Expression
 
 2. Heap
+
+3. Lambda functions
