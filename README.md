@@ -31,3 +31,10 @@ Zillow grap area price
 ## Blogs
 
 https://www.1point3acres.com/bbs/thread-652548-1-1.html
+
+
+## Knowledge Points
+
+1. Regular Expression
+
+2. Heap
