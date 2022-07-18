@@ -40,3 +40,4 @@ https://www.1point3acres.com/bbs/thread-652548-1-1.html
 - Regular Expression
 - Heap
 - Lambda functions
+- KMP Algorithm
