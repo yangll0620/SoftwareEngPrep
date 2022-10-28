@@ -17,7 +17,7 @@ https://github.com/grandyang/leetcode
    
 3. Details of System/Database/Services
    - Kafka
-   - Cassada
+   - Cassandra
    - MapReduce
 
 
