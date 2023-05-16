@@ -14,6 +14,10 @@ In the mixed precision training, FP16 is used instead to store the weights, acti
 
 
 ![Alt text](FP16_FP32.webp?raw=true "FP16 vs FP32") 
+*FP16 vs FP32*
+
+![Alt text](FP16_FP32_Range.webp?raw=true "FP16 vs FP32 Range and Precision") 
+*FP16 vs FP32 Range and Precision*
 
 reference to https://towardsdatascience.com/understanding-mixed-precision-training-4b246679c7c4
 
