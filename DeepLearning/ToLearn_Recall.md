@@ -8,10 +8,15 @@ Recall the other activation functions if possible.
 
 - Dilation
 - Depth wise convolution
+
+    dilation, padding
+
 - Batch Normlization
 
-momentum
+    momentum
 
 - Dropout
 
-drop_rate, noise_shape
+    drop_rate, noise_shape
+
+- ZeroPadding
