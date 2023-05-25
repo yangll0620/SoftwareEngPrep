@@ -127,3 +127,8 @@ Adam is short for adaptive moment estimation, which combines momentum and RMSPro
 $$ V_{t}^i = \beta_1 V_{t-1}^i + (1- \beta_1)\Delta W_t^i  $$
 $$ S_t = \beta_2 S_{t-1} + (1- \beta_2 )\Delta W_{t}^i \cdot \Delta W_{t}^i $$
 $$ W_t^i = W_{t-1}^i - \frac{\eta}{\sqrt{S_t} + \epsilon} V_{t}^i $$
+
+
+### Nadam
+
+Combines Nesterov and AdaGrad
