@@ -11,14 +11,7 @@
 * why choose on over the other
 * Why regularization works
 
-### Metric
-* precision, recall and their trade-off
-* imbalance, use which metric
-* classification problem, which one to use
-* confusion matrix
-* AUC
-* true positive rate, false positive rate, ROC
-* logloss, wheßn to use
+### [Metric](MLDocs/Metrics.md)
 
 ## Loss and Optimizer
 * MSE
