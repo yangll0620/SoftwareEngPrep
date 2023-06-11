@@ -1,4 +1,4 @@
-## Metrics to Evaluate ML Algorithms
+## Metrics to Evaluate ML/DL Algorithms
 
 ### Classification Performance Metrics
 
