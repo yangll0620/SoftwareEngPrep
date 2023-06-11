@@ -3,7 +3,7 @@
 ### Function Class
 
 ref https://classic.d2l.ai/chapter_convolutional-modern/resnet.html
-![Alt text](../figures/functionclasses.svg)
+![Alt text](figures/functionclasses.svg)
 
 Fig. 1 Non-nested function classes vs Nested functinal classes 
 
@@ -16,7 +16,7 @@ At the heart of the proposed residual network (ResNet) is the idea that every ad
 
 ref https://classic.d2l.ai/chapter_convolutional-modern/resnet.html
 
-![Alt text](../figures/residual-block.svg)
+![Alt text](figures/residual-block.svg)
 
 Fig. 2 A regular block (left) and a residual block (right)
 
@@ -25,6 +25,6 @@ Assume the desired underlying mapping we want to obtain is by learning $f(x)$ . 
 
 ### ResNet Architecture
 
-![Alt text](../figures/resnet18.svg)
+![Alt text](figures/resnet18.svg)
 
 Fig.3 The ResNet-18 architecture
