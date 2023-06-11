@@ -37,7 +37,3 @@ Note from youtube video https://www.youtube.com/watch?v=UYRBHFAvLSs
 - Use the Layer class to define the inner computation blocks, use the Model class to define the outer model
 
 - Example: ResNet50 model: several ResNet blocks subclassing Layer + end-to-end ResNet Model
-
-
-### Next step learning
-- mixed precision
