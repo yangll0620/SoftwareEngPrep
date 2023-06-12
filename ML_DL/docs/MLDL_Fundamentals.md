@@ -14,6 +14,7 @@
 
 * [Optimizer](Optimizer.md)
 
+* [Overfitting and Underfitting](Overfitting_Underfitting.md)
 
 ## Deep Learning 
 
