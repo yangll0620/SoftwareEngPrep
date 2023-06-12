@@ -8,6 +8,12 @@ The sigmoid function, also known as logistic function is a commonly used activat
 
 $$f(z) = \frac{e_z}{1+e_z}$$
 
+![](figures/sigmoid.ppm)
+
+https://www.researchgate.net/figure/Standard-sigmoid-function_fig2_336275807
+
+
+
 1. Map any real value into [0, 1], which can be interpreted as the probability of the input.
 
 2. Smoothness and differentiability, which is important for gradient-based optimizer.
@@ -69,3 +75,15 @@ LeakyReLu offers several benefits:
 
 
 ![](figures/ReLU-LeakyReLU.png)
+https://www.researchgate.net/figure/ReLU-activation-function-vs-LeakyReLU-activation-function_fig2_358306930
+
+
+### Tanh
+
+Tanh short for Hyperbolic Tangent
+
+$$tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
+
+
+![](figures/Tanh.gif)
+https://mathworld.wolfram.com/HyperbolicTangent.html
