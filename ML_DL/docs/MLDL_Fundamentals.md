@@ -10,6 +10,8 @@
 
 * [Mixed Precision](Mixed_Precision.md)
 
+* [OverFitting and Underfitting](Overfitting_Underfitting.md)
+
 * [Optimizer](Optimizer.md)
 
 
