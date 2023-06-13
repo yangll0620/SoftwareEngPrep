@@ -46,3 +46,30 @@ where $y$ represents the true class label (+1 or -1), and $\hat y$ represent the
 Hinge loss penalizes the model when the predicted score and the true label have opposite signs and are not separated by a margin of at least 1.
 
 
+### KL Divergence & Cross Entropy
+
+(ChatGPT)
+
+KL divergence, short for Kullback-Leibler divergence, is a measure of the differernce between two probability distributions. 
+
+
+$$ 
+
+    DL_{KL}(P||Q) := \sum_{i=1}^m p_i \cdot (f_Q(q_i) - f_P(p_i)) \\
+
+    = \sum_{i=1}^m pi \cdot ((-log_2q_i) -(-log_2 p_i) ) \\
+
+    = \sum_{i=1}^m p_i \cdot (-log_2q_i) - \sum_{i=1}^m p_i \cdot (-log_2p_i)
+$$ 
+where $P$ is the base probability distribution. It measures for distribution $P$ from distribution $P$ the exprected additional amount of information required.
+
+
+- The latter part $\sum_{i=1}^m p_i \cdot (-log_2p_i)$ of $DL_{KL}(P||Q)$ is the entropy of the base probability distribution $P$, thus it is a constant variable.
+
+- It is proved that the first part $\sum_{i=1}^m p_i \cdot (-log_2q_i)$ is alwarys larger than the second part $\sum_{i=1}^m p_i \cdot (-log_2p_i)$, thus $DL_{KL}(P||Q)$ is larger than zero. And the first part is the cross entropy $H(P, Q)$.
+
+
+
+![王木头学科学]https://www.youtube.com/watch?v=NgMa8H_8p8M&list=PLxIHUhMHF8okwhq8poRuiHBChWjkVUHLL&index=5
+
+

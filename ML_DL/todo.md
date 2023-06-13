@@ -11,7 +11,6 @@
 
 ## Loss and Optimizer
 * Linear Regression
-* K-L divergence
 * loss of logistric regression
 * when and why use cross entropy
 
