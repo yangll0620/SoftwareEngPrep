@@ -1,4 +1,4 @@
-## TOdo 
+## Todo 
 
 ### Basic
 * Generative vs Discrimitive

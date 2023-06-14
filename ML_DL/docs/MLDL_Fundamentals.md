@@ -2,7 +2,7 @@
 
 ### ML & DL Common Concepts
 
-* Activations
+* [Activations](Activations.md)
 
 * [Attention Mechanism](Attention.md)
 
