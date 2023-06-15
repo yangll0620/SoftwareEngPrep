@@ -4,7 +4,7 @@
 
 * Confusion Matrix
 
-![Alt text](../figures/ConfusionMatrix.jpg?raw=true "Confusion Matrix") 
+![Alt text](figures/ConfusionMatrix.jpg?raw=true "Confusion Matrix") 
 
 * Sensitivity & Specificity
 
@@ -28,7 +28,7 @@ An ROC curve (receiver operating characteristic curve) is a graph showing the pe
 
 AUC is the area under the ROC curve.
 
-![Alt text](../figures/ROC.jpg?raw=true "ROC curve")
+![Alt text](figures/ROC.jpg?raw=true "ROC curve")
 
 ROC curve (downloaded from wiki https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
 

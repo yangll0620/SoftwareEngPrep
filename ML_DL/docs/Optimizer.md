@@ -77,22 +77,24 @@ A subset or mini-batch of the training data is used to update the parameter in e
 
 ### Momentum
 
-Considering the history data for updating parameters.
+**Considering the history data for updating parameters.**
 
 
 $$ V_{t}^i = \beta V_{t-1}^i + (1- \beta)\Delta W_t^i  $$
 $$ W_t^i = W_{t-1} - \eta V_{t} $$
+$$\Delta W_{t}^i = \frac{\partial J({W_{(t-1)}^i})}{\partial W^i}$$
 
-where  $\Delta W_{t}^i = \frac{\partial J({W_{(t-1)}^i})}{\partial W^i}$,i represent dimension $i$.
+where  $\Delta W_{t}^i$ represents the gradient direction of point $W_{t-1}$ over dimension $i$ at time $t$.
 
 ### Nesterov
 
-Considering the history data and the forward data for updating parameters.
+**Considering the history data and the forward data for updating parameters.**
 
 $$ V_{t}^i = \beta V_{t-1}^i + (1- \beta)\Delta W_t^i  $$
 $$ W_t^i = W_{t-1} - \eta V_{t} $$
+$$\Delta W_{t}^i = \frac{\partial J({W_{(t-1)}^i} + \gamma V_{t-1})}{\partial W^i}$$
 
-where  $\Delta W_{t}^i = \frac{\partial J({W_{(t-1)}^i} + \gamma V_{t-1})}{\partial W^i}$,i represent dimension $i$.
+where  $\Delta W_{t}$ represent epresents the gradient direction of point $W_{t-1} + \gamma V_{t-1}$ (adding the forward data) over dimension $i$ at time $t$.
 
 ### AdaGrad
 

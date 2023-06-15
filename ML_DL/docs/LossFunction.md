@@ -67,6 +67,6 @@ where $P$ is the base probability distribution. It measures for distribution $P$
 - It is proved that the first part $\sum_{i=1}^m p_i \cdot (-log_2q_i)$ is alwarys larger than the second part $\sum_{i=1}^m p_i \cdot (-log_2p_i)$, thus $DL_{KL}(P||Q)$ is larger than zero. And the first part is the cross entropy $H(P, Q)$.
 
 
-ref (https://www.youtube.com/watch?v=NgMa8H_8p8M&list=PLxIHUhMHF8okwhq8poRuiHBChWjkVUHLL&index=5)
+ref https://www.youtube.com/watch?v=NgMa8H_8p8M&list=PLxIHUhMHF8okwhq8poRuiHBChWjkVUHLL&index=5
 
 
