@@ -50,7 +50,3 @@ The goal is to find the balance between model complexity and generalization perf
 
 Underfitting occurs when a machine learning model is unable to capture the underlying patterns in the training data. It results in poor performance on both the training data and new, unseen data.  Underfitting typically happens when the model is too simple or lacks the capacity to learn the complexities of the data.
 
-
-Underfitting occurs when a machine learning model is unable to capture the underlying patterns in the training data. It results in poor performance on both the training data and new, unseen data. Underfitting typically happens when the model is too simple or lacks the capacity to learn the complexities of the data.
-
-

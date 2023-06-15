@@ -1,6 +1,8 @@
 ## Attention Mechanism
 
-Using simpleRNN to descibe the ideas of attention and self-attetion mechanism. reference to https://www.youtube.com/watch?v=XhWdv7ghmQQ
+reference to https://www.youtube.com/watch?v=XhWdv7ghmQQ
+
+Using simpleRNN to descibe the ideas of attention and self-attetion mechanism. 
 
 Attention mechanism is to focus the attention to specific parts of data through adding a layer of neural network.
 
@@ -33,4 +35,31 @@ The importance or relevance of each element is calcualted with respected to all 
 
 ![Alt text](figures/SelfAttentionMechanism.jpg?raw=true "Attention") 
 
+
+
+
+### Transformer 
+(learn from https://www.youtube.com/watch?v=nzqlFIcCSWQ and 
+
+Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems 30 (2017).)
+
+![](figures/transformer_architecture.webp)
+
+
+* Encoder 
+
+The encoder is composed of a stack of $N = 6$ identical layers. Each layer has two sub-layers (Multi-head attetion, and MLP). The output of each sub-layer is $LayerNorm(x + sublayer(x))$
+
+
+![](figures/Batch_Layer_Norm.png)
+
+ref: https://www.youtube.com/watch?v=nzqlFIcCSWQ&t=1137s
+
+
+* Decoder
+Also a stack of $N = 6$ identical layers. Each layer has three sub-layers (Masked Multi-head attention, Multi-head attetion, and MLP). 
+
+* Attention / Multi-head Attention
+
+An attention function can be described as mapping a query and a set of key-value pairs to an output where the query, keys, values and outputs are all vectors. (from the paper)
 

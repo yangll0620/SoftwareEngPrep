@@ -75,6 +75,7 @@ LeakyReLu offers several benefits:
 
 
 ![](figures/ReLU-LeakyReLU.png)
+
 https://www.researchgate.net/figure/ReLU-activation-function-vs-LeakyReLU-activation-function_fig2_358306930
 
 
@@ -86,4 +87,5 @@ $$tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
 
 
 ![](figures/Tanh.gif)
+
 https://mathworld.wolfram.com/HyperbolicTangent.html

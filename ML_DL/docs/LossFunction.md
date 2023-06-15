@@ -2,7 +2,7 @@
 
 ### Mean Squared Error (MSE)
 
-MSE (mean squared error) is a commonly used loss fucntion in regression problems. 
+MSE (mean squared error) is a commonly used loss function in regression problems. 
 
 $$ MSE = \frac{1}{n}\sum_i(y - \hat y)^2$$
 
@@ -16,7 +16,7 @@ Cross entropy loss, also known as log loss or negative log-likelihood loss, is a
     
 * Binary Cross Entropy Loss
 
-Binary cross entropy loss $ = -(ylog {\hat p} + (1-y)log(1-\hat p))$
+Binary cross entropy loss $= -(ylog {\hat p} + (1-y)log(1-\hat p))$
 
 where $y$ represents the actual label, and $p$ is the predicted probability of label 1. 
 
@@ -27,7 +27,7 @@ where $y$ represents the actual label, and $p$ is the predicted probability of l
 
 Categorical cross entropy loss, also known as softmax loss or multi-class log loss, is commonly in multi-class classification problems.
 
-Categorical Cross Entropy loss $ = -\sum_i y_ilogp_i$
+Categorical Cross Entropy loss $= -\sum_i y_ilogp_i$
 
 where $y_i$ represents the true class labels in one-hot encoded format, and $p_i$ is the predicted class probabilities.
 

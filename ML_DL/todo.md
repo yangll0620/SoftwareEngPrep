@@ -10,29 +10,17 @@
  
 
 ## Loss and Optimizer
-* Linear Regression
 * loss of logistric regression
 * when and why use cross entropy
 
 
 ### Classification & Regression Models
-* logistic regression
-* Linear regression
+
 * SVM
-* Decision tree / Random Forest
 
 
+### Coding
 
+#### Tensorflow
 
-## Deep Learning
-
-## To Recall
-- Batch Normlization
-
-    momentum
-
-- Dropout
-
-    drop_rate, noise_shape
-
-- ZeroPadding
+- Attention 
