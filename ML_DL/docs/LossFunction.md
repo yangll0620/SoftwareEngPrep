@@ -53,11 +53,11 @@ Hinge loss penalizes the model when the predicted score and the true label have 
 KL divergence, short for Kullback-Leibler divergence, is a measure of the differernce between two probability distributions. 
 
 
-$$ DL_{KL}(P||Q) := \sum_{i=1}^m p_i \cdot (f_Q(q_i) - f_P(p_i)) \\
+$$ DL_{KL}(P||Q) := \sum_{i=1}^m p_i \cdot (f_Q(q_i) - f_P(p_i)) $$
 
-    = \sum_{i=1}^m pi \cdot ((-log_2q_i) -(-log_2 p_i) ) \\
+$$= \sum_{i=1}^m pi \cdot ((-log_2q_i) -(-log_2 p_i) ) $$
 
-    = \sum_{i=1}^m p_i \cdot (-log_2q_i) - \sum_{i=1}^m p_i \cdot (-log_2p_i)$$ 
+$$= \sum_{i=1}^m p_i \cdot (-log_2q_i) - \sum_{i=1}^m p_i \cdot(-log_2p_i)$$ 
 
 where $P$ is the base probability distribution. It measures for distribution $P$ from distribution $P$ the exprected additional amount of information required.
 
