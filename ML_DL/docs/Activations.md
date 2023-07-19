@@ -29,7 +29,7 @@ https://www.researchgate.net/figure/Standard-sigmoid-function_fig2_336275807
 
 The softmax function converts a vector of $K$ real number into a probability distribution of $K$ possible outcomes. It is a generalization of the logistic function to multiple dimensions, and used in multinomial logistic regression. The softmax function is often used as the last activation function of a neural network to normalize the output to a probability distribution over predicted output classes. 
 
-$$ p_i = \frac{e^{z_i}}{\sum_j^K e^{z_j}}$$
+$$ p_i = \frac{e^{z_i}}{\sum_{j} e^{z_j}}$$
 
 
 The softmax function tends to amplify the differences between input values, meaning that it assigns higher probabilities to the class with the highest input value and relatively lower probabilities to the other classes. This characteristic makes softmax suitable for multi-class classification tasks, where each input belong to exactly one class.
