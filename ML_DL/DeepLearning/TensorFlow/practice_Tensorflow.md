@@ -4,7 +4,7 @@
 
 2. ~~Self-attention~~ 
 
-3. Augmentation
+3. ~~Augmentation~~
 
 4. ~~Residual Block/ ResNet~~
 

@@ -8,7 +8,10 @@ $$
 $$
 
 
-* Cost Function : Cross Entropy
+* [Lost Function](LossFunction.md)
+
+$$ argmin (-\sum_i (y_ilog\ \hat{y_i} + (1-y_i)log \ (1-\hat{y_i})))$$
+
 
 
 ### Linear regression
@@ -19,7 +22,9 @@ $$
 $$
 
 
-* Cost Function: Mean Squared Error
+* [Lost Function](LossFunction.md)
+
+$$ argmin_\bold w \sum_i {(y_i - \hat{y_i})^2}$$
 
 
 ### SVM

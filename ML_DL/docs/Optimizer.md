@@ -94,7 +94,7 @@ $$ V_{t}^i = \beta V_{t-1}^i + (1- \beta)\Delta W_t^i  $$
 $$ W_t^i = W_{t-1} - \eta V_{t} $$
 $$\Delta W_{t}^i = \frac{\partial J({W_{(t-1)}^i} + \gamma V_{t-1})}{\partial W^i}$$
 
-where  $\Delta W_{t}$ represent epresents the gradient direction of point $W_{t-1} + \gamma V_{t-1}$ (adding the forward data) over dimension $i$ at time $t$.
+where  $\Delta W_{t}$ represent epresents the gradient direction of point $W_{t-1} + \gamma V_{t-1}$ (the forward data) over dimension $i$ at time $t$.
 
 ### AdaGrad
 

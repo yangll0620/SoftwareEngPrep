@@ -1,5 +1,58 @@
 ## Loss Function
 
+### Maximum Likelihood Estimation (MLE)
+
+The unknown joint probability distribution is expressed in terms of a set of parameters $\bold \theta$. The goal of maximum likelihood estimation is to find the parameters $\bold \theta$ for which the observed data sample $\bold y$ have the highest joint probability. Evaluating the joint probability of $\bold y$ gives a real-value function, likelihood function: $ L(\bold \theta; \bold y)$.
+
+For independent and identically distributed random variables, 
+
+$$ L(\bold \theta; \bold y) = \Pi_{i} \ p(y_i;\bold \theta)$$
+
+$p(y_i;\bold \theta)$ is the density function. The purpose of MLE is to find 
+
+$$\hat {\bold \theta} = {argmax}_{\bold \theta} L(\bold \theta; \bold y)$$
+
+* For linear regression, assume $y = \bold w^T\bold x + \epsilon$,  $p(y_i|x_i, \bold w)$ obeys $N(\hat{y_i}, \sigma^2), \hat {y_i} = \bold w^T\bold x$, thus the likelihood function is:
+$$ 
+    L(\bold \theta; \bold y) = \Pi_{i} \ p(y_i|x_i, \bold w) \newline
+    = \Pi_{i} \ p(y_i|\hat {y_i}) \newline
+    = \Pi_{i} \frac{1}{\sqrt{2\pi\sigma^2}} \exp({-\frac{(y_i - \hat{y_i})^2}{2\sigma^2}}) \newline 
+$$
+
+Adding $log$ operator to likelihood function:
+
+$$
+    log  L(\bold \theta; \bold y) = log \Pi_{i} \ p(y_i|x_i, \bold w) \newline
+    = \sum_i log\ p(y_i|x_i, \bold w) \newline
+    = \sum_i log \frac{1}{\sqrt{2\pi\sigma^2}} \exp({-\frac{(y_i - \hat{y_i})^2}{2\sigma^2}}) \newline
+    = \sum_i (log \frac{1}{\sqrt{2\pi\sigma^2}}) + (-\frac{(y_i - \hat{y_i})^2}{2\sigma^2}) \newline
+    = Nlog \frac{1}{\sqrt{2\pi\sigma^2}} - \frac{1}{2\sigma^2}\sum_i {(y_i - \hat{y_i})^2}
+$$
+
+Thus maxmimize the likelihood equals to minimize the mean squred error $\sum_i {(y_i - \hat{y_i})^2}$.
+
+
+* For classification, the likelihood function is:
+$$ 
+    L(\bold \theta; \bold y) = \Pi_{i} \ p(y_i|\hat{y_i}) \newline
+$$
+
+The estimated probability obeys Bernoulli distribution. The density function of Bernoulli distribution can write as $f(y) = p^y(1-p)^{(1-y)}$ $p$ is the probability of $y = 1$. For label $y_i == 1$ is $\hat{y_i}$, then:
+
+$$
+    log L(\bold \theta; \bold y) = log \Pi_{i} \ p(y_i|\hat{y_i}) \newline
+    = \sum_i log\ p(y_i|\hat{y_i}) \newline
+    = \sum_i log(\hat{y_i}^{y_i}(1-\hat{y_i})^{(1-y_i)}) \newline
+    = \sum_i (y_ilog\ \hat{y_i} + (1-y_i)log \ (1-\hat{y_i}))
+$$
+
+$$
+    argmax \ log L(\bold \theta; \bold y) \newline
+    = argmin (-\sum_i (y_ilog\ \hat{y_i} + (1-y_i)log \ (1-\hat{y_i})))
+
+$$
+
+
 ### Mean Squared Error (MSE)
 
 MSE (mean squared error) is a commonly used loss function in regression problems. 
