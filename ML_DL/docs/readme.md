@@ -10,6 +10,8 @@
 
 * [Lagrange Dual Problem](Lagrange_dual_problem.md)
 
+* [Loss Function](LossFunction.md)
+
 * [Matrics](Metrics.md)
 
 * [Mixed Precision](Mixed_Precision.md)
