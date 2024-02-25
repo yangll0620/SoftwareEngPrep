@@ -2,9 +2,44 @@
 
 ### Bias and Variance
 
-* Bias is the difference between the predictions of the model and the actual values. High bias can cause an algorithm to miss the relevant relations between features and target outputs (underfitting)
+Bias and variance describe different aspects of a model's performance and generalization ability.
 
-* Variance is the variability of model prediction. High variance may result from an algorithm modelling the random noise in the training data (overfitting).
+Let $Y$ be the true value of a variable, and $\hat Y$ be the estimator of $Y$ based on sample data:
+
+Bias is the difference between the expected value of the predicted values and the actual value.
+$$
+    Bias(\hat Y) = E(\hat Y) - Y
+$$
+
+Variance is the expected value of the square of the difference between predicted values and the expected value of the predicted values.
+$$
+    Variance(\hat Y) = E((\hat Y - E(\hat Y))^2)
+$$
+
+Bias:
+
+- Bias measures the systematic error in the predictions of a model.
+
+- It reflects how closely the average prediction of the model matches the true value or target value across different training datasets.
+
+- A model with high bias tends to oversimplify the underlying patterns in the data and may underfit the training data.
+
+- Common causes of bias include using an overly simple model that cannot capture the true relationship between features and target, or having insufficient features to represent the underlying complexity of the data.
+
+- High bias can lead to poor performance on both training and test data (high training error and high test error).
+
+Variance:
+
+- Variance measures the variability or sensitivity of the model's predictions to fluctuations in the training data. It reflects how much the predictions of the model vary across different training datasets.
+
+- A model with high variance tends to capture noise or random fluctuations in the training data and may overfit the training data.
+Overfitting occurs when the model learns the training data too well, including its noise and random variations, leading to poor generalization to new, unseen data.
+
+- Common causes of variance include using a highly complex model that can fit the training data too closely, or having insufficient training data to estimate the model parameters reliably.
+
+- High variance can lead to low training error but high test error (overfitting), indicating poor generalization to new data.
+
+
 
 ### Overfitting
 
