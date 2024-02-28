@@ -26,13 +26,13 @@ The key differences between L1 and L2 regularizations is that L1 shrinks the les
 * Hypothesis Function
 
 $$
-    f(x) = \bold w^T \bold x + \bold b \\
+    f(x) = \bf w^T \bf x + \bf b \\
 $$
 
 
 * [Lost Function](LossFunction.md)
 
-$$ argmin_\bold w \sum_i {(y_i - \hat{y_i})^2}$$
+$$ argmin_\bf w \sum_i {(y_i - \hat{y_i})^2}$$
 
 
 ### SVM
