@@ -3,9 +3,12 @@
 ### logistic regression
 
 * Hypothesis Function
+  
+$$
+    f(x) = g(\bf w^T \bf x + \bf b) \\
 $$
 
-    f(x) = g(\bold w^T \bold x + \bold b) \\
+$$
     g(z) = \frac{1}{1 + e^{-z}}
 $$
 
