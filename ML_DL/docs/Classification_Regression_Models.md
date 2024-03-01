@@ -17,6 +17,38 @@ $$
 
 $$ argmin (-\sum_i (y_ilog\ \hat{y_i} + (1-y_i)log \ (1-\hat{y_i})))$$
 
+* Derivation of Loss Function
+
+1. Given a dataset $\\{(\bf x_i, y_i) \\}_i^N$, where $\bf x_i$ represents the input features and $y_i$ represents the corresponding binary output (0 or 1) 
+
+2. The likelihood function is
+
+$$
+L({\bf w}) = \prod_i^N \ p(y_i|{\bf x_i}; {\bf w})
+$$
+
+Taking the logarithm of the likelihood function, we get the log-likelihood:
+
+$$
+l({\bf w}) = \log L({\bf w}) = \sum_i^N \ p(y_i|{\bf x_i}; {\bf w})
+$$
+
+3. We want to maximize the likelihood (or log-likelihood) function, which is equivalent to minimizing the negative log-likelihood, Therefore, the loss function for logistic regression is the negative log-likelihood:
+
+$$
+J({\bf w}) = - l({\bf w}) = -\sum_i^N \ p(y_i|{\bf x_i}; {\bf w})
+$$
+
+
+4. For logistic regression, we have
+
+$$
+  p(y_i|{\bf x_i}; {\bf w}) = \left \{ \right
+$$
+
+
+
+
 * Regularization 
 
     Lasso Regression (L1)
