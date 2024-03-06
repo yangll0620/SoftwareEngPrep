@@ -20,7 +20,7 @@ Attention Weight: $\alpha_i = align(h_i, s_0)$  is to measure the relationship b
 
 ![Alt text](figures/AttentionWeight_1.png?raw=true "Attention") 
 
-$\bold v$ and $W$ are trainable.
+$\bf v$ and $W$ are trainable.
 
 2. Used in Transformer
 
