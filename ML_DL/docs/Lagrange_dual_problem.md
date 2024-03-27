@@ -5,24 +5,24 @@
 In mathematical optimization, the **method of Lagrange Multipliers** is a strategy for finding the local maxima and minima for a function subject to equation constraints.
 
 $$
-    min \ f(\bold x), x \in \mathbb{R}^n \\
-    s.t. \ g_i(\bold x) \leq 0, \ i = 1, 2, ..., m \\
-         \ h_i(\bold x) = 0, \ i = 1, 2, ..., q
+    min \ f(\mathbf x), x \in \mathbb{R}^n \\
+    s.t. \ g_i(\mathbf x) \leq 0, \ i = 1, 2, ..., m \\
+         \ h_i(\mathbf x) = 0, \ i = 1, 2, ..., q
 $$
 
 ===>
 
 $$
-    L(\bold x, \bold \lambda,  \bold \nu) 
-    = f(\bold x) 
-    + \sum_i^m \  \lambda_i g_i(\bold x) 
-    + \sum_i^q \ \nu_i h_i(\bold x), 
+    L(\mathbf x, \mathbf \lambda,  \mathbf \nu) 
+    = f(\mathbf x) 
+    + \sum_i^m \  \lambda_i g_i(\mathbf x) 
+    + \sum_i^q \ \nu_i h_i(\mathbf x), 
     \  \lambda_i \geq 0 
 $$
 
 
-* $L(\bold x, \bold \lambda , \bold \nu)$ is Lagrange function
-* $\bold \lambda_i$ and $\bold \nu_i$ are Lagrange multipliers
+* $L(\mathbf x, \mathbf \lambda , \mathbf \nu)$ is Lagrange function
+* $\mathbf \lambda_i$ and $\mathbf \nu_i$ are Lagrange multipliers
 
 
 ![](figures/Lagrange.png)
